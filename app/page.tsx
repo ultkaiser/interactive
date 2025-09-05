@@ -26,14 +26,14 @@ const HOURLY_MESSAGES: Message[] = [
   {
     id: "1",
     content:
-      "Good afternoon, my love! 🌅 The day feels brighter knowing you're in it. I hope you're having a wonderful time and remember that you're always in my heart.",
+      "Good afternoon, my love! 🌅 The day feels brighter knowing you're in it. I hope you're having a wonderful time and remember that you're always in my heart and enjoying my efforts",
     unlockHour: 13, // 1 PM
     unlocked: false,
     type: "letter",
   },
   {
     id: "2",
-    content: "🎮 Mini Game Alert! Click the hearts to collect them! Let's see how many you can gather! ❤️💖💕",
+    content: "🎮 Mini Game! Click the hearts to collect them! Let's see how many you can gather! ❤️💖💕",
     unlockHour: 14, // 2 PM
     unlocked: false,
     type: "easter-egg",
@@ -75,19 +75,21 @@ const HOURLY_MESSAGES: Message[] = [
   {
     id: "7",
     content:
-      "Dinner time! I hope you're taking care of yourself and eating something delicious. You deserve all the good things, including amazing food and endless love. 🍽️❤️",
+      "🎊 Special Evening Surprise! You've unlocked a shower of virtual confetti because you're absolutely amazing! 🎉✨🎈",
     unlockHour: 19, // 7 PM
     unlocked: false,
-    type: "letter",
+    type: "easter-egg",
+    easterEggType: "surprise",
+    
   },
   {
     id: "8",
     content:
-      "🎊 Special Evening Surprise! You've unlocked a shower of virtual confetti because you're absolutely amazing! 🎉✨🎈",
+      "Almost Dinner time! I hope you're taking care of yourself and eating something delicious. You deserve all the good things, including amazing food and endless love. 🍽️❤️",
     unlockHour: 20, // 8 PM
     unlocked: false,
-    type: "easter-egg",
-    easterEggType: "surprise",
+    type: "letter",
+
   },
   {
     id: "9",
